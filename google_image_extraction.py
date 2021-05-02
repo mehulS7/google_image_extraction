@@ -9,10 +9,10 @@ import re
 
 print('Please install Chrome and Chrome driver befrore running the script. Thanks')
 
-path = input("Please enter the driver path.\nExample: C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe\n>")
+path = input("Please enter the driver path.\nExample: C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe\n>").strip()
 #C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe
 
-downloads = input("Please enter the path where you would want to store the images.\nExample: C:\\Users\\Mehul\\Images\n>")
+downloads = input("Please enter the path where you would want to store the images.\nExample: C:\\Users\\yourname\\Images\n>").strip()
 #'C:\Users\yourname\images'
 
 keyword = input('Enter the keyword:\n>')
